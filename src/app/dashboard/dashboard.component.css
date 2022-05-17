@@ -1,0 +1,40 @@
+.dashboard-view{
+    width: 100%;
+    height: 100vh;
+}
+
+.header{
+    width: 150%;
+    height: 7%;
+    background-color: #919191;
+    margin-bottom: 2%;
+}
+.table-filter{
+    width: 100%;
+    padding-left: 2%;
+}
+.table-outer{
+    width: 150%;
+
+}
+.table{
+    width: 100%;
+}
+.filter-select{
+    margin-right: 1%;
+}
+.buttons{
+    margin-right: 2%;
+}
+.imgs{
+    width: 50%;
+    height: auto;
+    
+}
+
+.image-column{
+    width: 7%;
+}
+.col{
+    margin-right: 100%;
+}

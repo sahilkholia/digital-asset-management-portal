@@ -1,0 +1,30 @@
+<!-- #919191 -->
+<div class="login-view">
+    <!-- header  -->
+    <div class="header">
+
+    </div>
+
+    <!-- Login  -->
+    <div class="login-panel mat-typography">
+        <div class="login-panel-head">
+            <h2 class="label-text">Login</h2>
+        </div>
+        <div class="login-panel-body">
+            <form class="login-form" (ngSubmit)="login()">
+                <mat-form-field class="field" appearance="fill">
+                    <mat-label>UserName</mat-label>
+                    <input matInput type="text" [(ngModel)]="user" name="user">
+                </mat-form-field>
+                <mat-form-field class="field" appearance="fill">
+                    <mat-label >Password</mat-label>
+                    <input matInput type="password" [(ngModel)]="pass" name="pass">
+                </mat-form-field>
+                
+                <button mat-raised-button class="login-btn" color="primary">Login</button>
+            </form>
+        </div>
+    </div>
+
+
+</div>

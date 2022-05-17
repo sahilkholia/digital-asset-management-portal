@@ -1,0 +1,84 @@
+<div class="container">
+
+
+
+    <form class="add-form">
+        <mat-form-field appearance="fill" class="field">
+            <mat-label>Buyer</mat-label>
+            <input matInput>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" class="field">
+            <mat-label>Season</mat-label>
+            <input matInput>
+        </mat-form-field>
+        
+        <!-- Image -->
+        <div class="field image">
+            <mat-label>Image: </mat-label>
+            <input class="ng-hide" id="input-file-id" multiple type="file">
+        </div>
+
+        <mat-form-field appearance="fill" class="field">
+            <mat-label>Vendor</mat-label>
+            <mat-select [(ngModel)]="vendor" name="vendor">
+            <mat-option *ngFor="let vendor of vendors" [value]="vendor.value">
+                {{vendor.viewValue}}
+            </mat-option>
+            </mat-select>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" class="field">
+            <mat-label>Style No.</mat-label>
+            <input matInput>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" class="field">
+            <mat-label>Size</mat-label>
+            <input matInput>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" class="field">
+            <mat-label>Sample Type</mat-label>
+            <input matInput>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" class="field">
+            <mat-label>Fabic</mat-label>
+            <input matInput>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" class="field">
+            <mat-label>Price</mat-label>
+            <input matInput>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" class="field">
+            <mat-label>Designer</mat-label>
+            <input matInput>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" class="field">
+            <mat-label>Lead Time</mat-label>
+            <input matInput>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" class="field">
+            <mat-label>Customer ID</mat-label>
+            <input matInput>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" class="field">
+            <mat-label>Construction</mat-label>
+            <input matInput>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" class="field">
+            <mat-label>GSM</mat-label>
+            <input matInput>
+        </mat-form-field>
+
+        <button mat-raised-button color="primary">Save</button>
+
+    </form>
+</div>

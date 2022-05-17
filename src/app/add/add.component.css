@@ -1,0 +1,11 @@
+.add-form{
+    display: block;
+}
+.field{
+    width: 45%;
+    margin-right: 2.5%;
+}
+.image{
+    width: 100%;
+    height: 50px;
+}

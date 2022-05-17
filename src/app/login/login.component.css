@@ -1,0 +1,46 @@
+.login-view{
+    width: 100%;
+    height: 100vh;
+}
+
+.header{
+    width: 100%;
+    height: 7%;
+    background-color: #919191;
+}
+
+.login-panel{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+    background-color: #f2f2f2;
+    padding-bottom: 3%;
+    border-radius: 8px;
+}
+.login-panel-head{
+width: 100%;
+display: grid;
+place-content: center;
+background-color: #919191;
+color: white;
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+}
+.label-text{
+    position: relative;
+    top: 15%
+}
+.login-panel-body{
+    padding-top: 5%;
+}
+.login-form{
+    width: 70%;
+    margin-left: 15%;
+}
+.field{
+    width: 100%;
+}
+.login-btn{
+    width: 30%;
+    margin-left: 70%;
+}

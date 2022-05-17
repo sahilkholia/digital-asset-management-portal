@@ -1,0 +1,30 @@
+.container{
+    width: 100%;
+    display: flex;
+}
+.image-panel{
+    width: 40%;
+}
+.details-panel{
+    width: 60%;
+    display: grid;
+    place-content: center;
+}
+.image{
+    width: 100%;
+    height: auto;
+}
+h1{
+    font-weight: bold;
+}
+h3{
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+.close{
+    width: 100%;
+    display: grid;
+    place-content: center;
+}
+
