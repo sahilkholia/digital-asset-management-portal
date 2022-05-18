@@ -8,6 +8,11 @@
     height: 7%;
     background-color: #919191;
 }
+.header-text{
+    color: white;
+    padding-top: 0.7%;
+    margin-left: 1%;
+}
 
 .login-panel{
     width: 50%;
